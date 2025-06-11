@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Multimedijski sadržaj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f0fff4;
+            color: #2f4f2f;
+        }
+        h1 {
+            color: #3cb371;
+        }
+        img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 2px solid #3cb371;
+        }
+        video, audio {
+            display: block;
+            margin: 20px 0;
+            max-width: 100%;
+            border-radius: 8px;
+            border: 2px solid #3cb371;
+        }
+        iframe {
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Multimedijski sadržaj</h1>
+
+<!-- Slike -->
+<section>
+    <h2>Moje slike</h2>
+    <img src="C:\Users\Student\Desktop\Maša Jakelić vježba 10 i 11\mojaslika1.jpg" alt="Opis slike 1" />
+    <img src="C:\Users\Student\Desktop\Maša Jakelić vježba 10 i 11\mojaslika2.jpg" alt="Opis slike 2" />
+    <img src="C:\Users\Student\Desktop\Maša Jakelić vježba 10 i 11\mojaslika3.jpg" alt="Opis slike 3" />
+</section>
+
+<!-- Lokalni video -->
+<section>
+    <h2>Lokalni video</h2>
+    <video controls width="480" height="270">
+        <source src="C:\Users\Student\Desktop\Maša Jakelić vježba 10 i 11\masa_jakelic_vjezba_9.mp4" type="video/mp4" />
+        Vaš preglednik ne podržava video element.
+    </video>
+</section>
+
+<!-- YouTube video -->
+
+<section>
+    <h2>Video s YouTube-a</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a8qZjGRhTwQ" 
+        title="YouTube video" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+</section>
+
+<!-- Zvuk -->
+<section>
+    <h2>Zvuk (mp3)</h2>
+    <audio controls>
+        <source src="C:\Users\Student\Desktop\Maša Jakelić vježba 10 i 11\criminal minds intro.mp3" type="audio/mpeg" />
+        Vaš preglednik ne podržava audio element.
+    </audio>
+</section>
+
+</body>
+</html>
